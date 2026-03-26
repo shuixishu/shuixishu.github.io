@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'LXGWWenKai';
     font-display: swap;
-    src: url('../font/LXGWWenKai-Regular.ttf') format("truetype");
+    src: url('../css/LXGWWenKai-Regular.ttf') format("truetype");
 }
 body {
     font-family: 'LXGWWenKai';
