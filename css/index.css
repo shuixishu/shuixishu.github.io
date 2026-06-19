@@ -1742,7 +1742,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: LXGWWenKai;
+  font-family: LXGW Wenkai Screen, LXGWWenKai, Noto Serif SC, Times New Roman, 宋体, system-ui, sans-serif;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   scroll-behavior: smooth;
@@ -1855,6 +1855,13 @@ a {
 }
 a:hover {
   color: #49b1f5;
+}
+#site-title,
+#site-subtitle,
+.site-name,
+#aside-content .author-info-name,
+#aside-content .author-info-description {
+  font-family: LXGW Wenkai Screen, LXGWWenKai, Noto Serif SC, Times New Roman, 宋体, system-ui, sans-serif;
 }
 .text-center {
   text-align: center;
@@ -2029,7 +2036,7 @@ figure.highlight pre .javascript .function {
 .container pre,
 .container code {
   font-size: var(--global-font-size);
-  font-family: consolas, Menlo, monospace, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
+  font-family: LXGW Wenkai Screen, LXGWWenKai, Courier New, monospace !important;
   border-radius: 6px;
 }
 .container code {
